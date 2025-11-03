@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MyDynaCompLibrary")(type "KiCad")(uri "${KIPRJMOD}/MyDynaCompLibrary.kicad_sym")(options "")(descr ""))
+)
