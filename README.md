@@ -15,11 +15,15 @@
 
 Circuit board top side:
 
-<img width="500px" src="photos/pcb-top.jpg">
+<img width="500px" src="photos/pcb-top-with-identifiers.jpg">
 
 Circuit board bottom side:
 
-<img width="500px" src="photos/pcb-bottom.jpg">
+<img width="500px" src="photos/pcb-bottom-flipped-horizontally.jpg">
+
+Line filter:
+
+<img width="200px" src="photos/line-filter.jpg">
 
 Model number `606-5001`
 
