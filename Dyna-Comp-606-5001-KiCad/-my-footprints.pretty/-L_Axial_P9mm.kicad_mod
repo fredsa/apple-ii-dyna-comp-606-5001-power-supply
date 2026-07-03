@@ -1,0 +1,161 @@
+(footprint "-L_Axial_P9mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Inductor, Axial series, Axial, Vertical, pin pitch=7.62mm, length*diameter=17.5*12mm^2, Vishay, IM-10-46, http://www.vishay.com/docs/34030/im10.pdf")
+	(tags "Inductor Axial series Axial Vertical pin pitch 7.62mm  length 17.5mm diameter 12mm Vishay IM-10-46")
+	(property "Reference" "L1"
+		(at 8.59 -7.12 0)
+		(layer "F.SilkS")
+		(uuid "866ed6a6-2ca2-4a4a-9867-684990a1d6b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 8.59 7.12 0)
+		(layer "F.Fab")
+		(uuid "bf42413d-6c69-4660-88c9-6964ffcc2ffb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eac5e768-864a-4387-bb82-8683ce295f8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f77b627-fe92-44e9-a533-5f68636dd0c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "choke_THT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7f0ab792-1289-471b-b432-74cb9721249a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+	(sheetname "/")
+	(sheetfile "Dyna-Comp-606-5001-KiCad.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 10.9 0)
+		(end 11.1 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6495f521-8685-4ff9-bd37-bc673b2f4cff")
+	)
+	(fp_circle
+		(center 4.78 0)
+		(end 10.9 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "58a3a113-f942-4967-96ba-7c32d3cd8367")
+	)
+	(fp_rect
+		(start -1.47 -6.25)
+		(end 11 6.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "80a5be1f-36c4-4fb4-9b2f-1efac5e2c9aa")
+	)
+	(fp_line
+		(start 0.97 0)
+		(end 8.59 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92b2625a-3abd-45c9-89f0-f1e616646922")
+	)
+	(fp_circle
+		(center 4.78 0)
+		(end 10.78 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "35385982-5bb3-493a-8fc3-6b712a01c9f1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.78 -1.5 0)
+		(layer "F.Fab")
+		(uuid "e70e5007-1c01-47c8-a861-310ecc8546fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c3e9f553-c82f-46ce-958a-336edcb207c6")
+	)
+	(pad "2" thru_hole circle
+		(at 9.5 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3bf380d-f22b-4df7-819f-989009bb05dd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Axial_L17.5mm_D12.0mm_P7.62mm_Vertical_Vishay_IM-10-46.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
