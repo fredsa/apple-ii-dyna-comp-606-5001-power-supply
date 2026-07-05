@@ -5,13 +5,14 @@
 	(uuid "efe57e30-2c15-4233-9384-7981010931f7")
 	(paper "A3")
 	(title_block
-		(title "Apple ][ 605-5703 (DynaComp 606-5001) Power Supply 110v")
+		(title "Apple II DynaComp Power Supply 110v")
 		(date "2025-10-12")
-		(rev "2")
-		(company "Reverse-engineered by Fred Sauer in 2025.")
-		(comment 2 "U.S. Patent 4,130,862), except for differences indicated by dotted outline and 'diff' text.")
-		(comment 3 "The Apple II Circuit Description (reprint of Apple II Reference Manual 1981, see also")
-		(comment 4 "Part numbers and compontent layout match power supply schematic published in ")
+		(rev "3")
+		(company "Reverse-engineered by Fred Sauer in 2025, 2026.")
+		(comment 1 "U.S. Patent 4,130,862), except for differences indicated by dotted outlines marked 'diff'.")
+		(comment 2 "in The Apple II Circuit Description (reprint of Apple II Reference Manual 1981, see also")
+		(comment 3 "Part numbers and compontent layout updated to match power supply schematic published")
+		(comment 4 "DynaComp 606-5001, Apple part no. 605-5703")
 	)
 	(lib_symbols
 		(symbol "Conn_01x01_1"
