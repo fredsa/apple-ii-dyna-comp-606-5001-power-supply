@@ -18,13 +18,18 @@
 <table>
   <caption>KiCad schematic</caption>
   <tr>
-    <td>
-      <a href="Dyna-Comp-606-5001-KiCad.svg">Dyna-Comp-606-5001-KiCad.svg</a><br>
-      <a href="Dyna-Comp-606-5001-KiCad.pdf">Dyna-Comp-606-5001-KiCad.pdf</a><br>
+    <td style="text-align:center">
+      Download: <a href="Dyna-Comp-606-5001-KiCad.svg">SVG</a>,
+      <a href="Dyna-Comp-606-5001-KiCad.pdf">PDF</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Project files: <a href="Dyna-Comp-606-5001-KiCad/">Dyna-Comp-606-5001-KiCad/</a>
     </td>
   </tr>
   <tr>
     <td><img width="800" src="Dyna-Comp-606-5001-KiCad.svg"></td>
+  </tr>
+  <tr>
+    <td><img width="800" src="pcb.png"></td>
   </tr>
 </table>
 
